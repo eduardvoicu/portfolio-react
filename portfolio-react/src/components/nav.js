@@ -51,3 +51,25 @@ function Nav({ currentPage, handlePageChange }) {
               Portfolio
             </a>
           </p>
+          <p className="nav-item">
+          <a
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={
+              currentPage === "Contact" ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
+          </a>
+        </p>
+        <p className="nav-item nav-link">
+          <a target="blank" href={Resume}>
+            Resume
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default Nav;
