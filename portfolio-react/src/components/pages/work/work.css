@@ -1,0 +1,38 @@
+h1 {
+    font-size: 75px;
+    padding-bottom: 50px;
+}
+
+.work {
+    text-align: center;
+    margin: 0 250px 0 250px;
+}
+
+.work1 {
+    width: 35rem;
+    border: 2px solid rgb(43, 43, 43);
+}
+
+.work2 {
+    width: 35rem;
+    border: 2px solid rgb(43, 43, 43);
+}
+
+.work3 {
+    width: 35rem;
+    border: 2px solid rgb(43, 43, 43);
+}
+
+.projTitle {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.workItem {
+    border: 2px solid rgb(43, 43, 43);
+}
+
+.workItem1 {
+    border: 2px solid rgb(43, 43, 43);
+    margin-top: 50px;
+}
