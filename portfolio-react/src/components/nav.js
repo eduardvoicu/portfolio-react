@@ -16,3 +16,38 @@ const styles = {
     marginTop: "25px",
   },
 };
+
+function Nav({ currentPage, handlePageChange }) {
+    return (
+      <div class="navBar">
+        <p style={styles.myName}>Eduard Voicu</p>
+        <div style={styles.card}>
+          <p className="nav-item">
+            <a
+              href="#home"
+              onClick={() => handlePageChange("Home")}
+              className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+            >
+              Home
+            </a>
+          </p>
+          <p className="nav-item">
+            <a
+              href="#about"
+              onClick={() => handlePageChange("About")}
+              className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            >
+              About
+            </a>
+          </p>
+          <p className="nav-item">
+            <a
+              href="#portfolio"
+              onClick={() => handlePageChange("Work")}
+              className={
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              }
+            >
+              Portfolio
+            </a>
+          </p>
