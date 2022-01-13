@@ -1,11 +1,11 @@
 import React from "react";
 import "./Work.css";
-import Work1 from "./assets/";
-import Work2 from "./assets/";
-import Work3 from "./assets/";
-import Work4 from "./assets/";
-import Work5 from "./assets/";
-import Work6 from "./assets/";
+import Work1 from "./assets";
+import Work2 from "./assets";
+import Work3 from "./assets";
+import Work4 from "./assets";
+import Work5 from "./assets";
+import Work6 from "./assets";
 
 export default function Work() {
   return (
