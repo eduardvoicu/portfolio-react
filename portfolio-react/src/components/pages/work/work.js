@@ -34,3 +34,56 @@ export default function Work() {
               </a>
             </p>
           </div>
+          <div class="workItem1">
+            <p class="workTitle">
+              <span class="projTitle"></span>
+            </p>
+            <img class="work2" src={Work2} />
+            <p>
+              GitHub Repo:{" "}
+              <a
+                target="blank"
+                href=""
+              >
+                Click here!
+              </a>
+            </p>
+            <p>
+              Deployed App:{" "}
+              <a
+                target="blank"
+                href=""
+              >
+                Click here!
+              </a>
+            </p>
+          </div>
+          <div class="workItem1">
+            <p class="workTitle">
+              <span class="projTitle"></span>
+            </p>
+            <img class="work3" src={Work3} />
+            <p>
+              GitHub Repo:{" "}
+              <a
+                target="blank"
+                href=""
+              >
+                Click here!
+              </a>
+            </p>
+            <p>
+              Deployed App:{" "}
+              <a
+                target="blank"
+                href=""
+              >
+                Click here!
+              </a>
+            </p>
+          </div>
+        </div>
+          </section>
+    </div>
+  );
+}
