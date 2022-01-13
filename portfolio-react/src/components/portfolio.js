@@ -9,3 +9,26 @@ import "./Portfolio.css";
 
 export default function Portfolio() {
   const [currentPage, setCurrentPage] = useState("Home");
+
+  const renderPage = () => {
+    if (currentPage === "Home") {
+      return <Home />;
+    }
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Work") {
+      return <Work />;
+    } else return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
+    </div>
+  );
+}
