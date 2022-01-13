@@ -1,0 +1,12 @@
+* {
+    background-color: darkblue;
+}
+
+.navBar {
+    margin-bottom: 50px;
+    border-bottom: 5px solid rgb(219, 219, 219);
+}
+
+.nav-item {
+    font-weight: bold;
+}
